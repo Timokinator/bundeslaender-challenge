@@ -1,0 +1,62 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+body {
+    margin: 0;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+} 
+
+header h1 {
+  background: lightgray;
+  color: #666666;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.bundesland {
+    width: calc(33% - 20px);
+    border: 5px solid rgb(235, 234, 234);
+    padding: 10px;
+    margin: 5px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a h3 {
+    color: black;
+    margin: 0;
+}
+
+a p {
+    color: grey;
+    margin: 0;
+}
+
+a:hover {
+    cursor: pointer;
+    scale: 1.02;
+}
+
